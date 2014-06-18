@@ -33,14 +33,14 @@ Based on combining the data of two groups of subjects ("Test" and "Train"). Must
 4. Reads the text files of all Subjects, Labels and Measurements for the "Train" group (each file contains 7352 observations)
 5. Combines the "Train" group files into one data frame with the "Description" labeling each variable column accordingly
 6. 'FullDataSet' then combines all of the new "Test" and "Train" table's information into one data frame (creates data frame with 10299 obs. of 563 variables)
-7. Subset the first two columns of the data to have the Subject ID and Activity ID
+7. Subsets the first two columns of the data to have the Subject ID and Activity ID
 8. Subsets the FullDataSet variables to include only those with mean and std (standard deviation) measurements (79 total)
 9. Combines the two subset files to produce a data frame with 10299 obs with a total of 81 variables
-10. Reads the Activity Names file (6 different options: WALKING, SITTING, etc)
+10. Reads the Activity Names file (6 different options: WALKING, SITTING, STANDING, etc)
 11. Adds a column in the combined data frame matching the Activity ID with the appropriate Activity Name so clearly indicates which activity the variables reference
 12. Cleans up data labels by removing unnecessary symbols, uniform capitalization and style.
 13. Condenses (melts) table to primary identifiers (SubjectID, ActivityID, ActivityDescription) to create a very tall, skinny table (813621 obs. of 5 variables)
-14. Creates a tidy data frame giving the average (mean) of each of the variables to return a table with 180 observations (each of the 6 activities for each of the 30 subjects) with 81 variables.
+14. Using the melted table to create a tidy data frame giving the average (mean) of each of the variables. Returns a table with 180 observations (each of the 6 activities for each of the 30 subjects) with 81 variables.
 15. Writes the new tidy data frame into a tab-delimited file called TidyData.txt
 
 
