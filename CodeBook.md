@@ -39,7 +39,7 @@ These signals were used to estimate variables of the feature vector for each pat
 
 <b>The FINAL set of variables is the average (mean) of each of the signals.</b>
 
-Time Signals (Mean and Standard Deviation measurments for each axial: X, Y, and Z):
+Time Signals: A Mean and Standard Deviation (Std) measurment for each axial: X, Y, and Z...
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -51,7 +51,7 @@ Time Signals (Mean and Standard Deviation measurments for each axial: X, Y, and 
 * tBodyGyroMag
 * tBodyGyroJerkMag
 
-Fast Fourier Transform Signals (Mean and Standard Deviation measurments for each axial: X, Y, and Z):
+Fast Fourier Transform Signals: A Mean and Standard Deviation (Std) measurment for each axial: X, Y, and Z...
 * fBodyAcc-XYZ
 * fBodyAccJerk-XYZ
 * fBodyGyro-XYZ
