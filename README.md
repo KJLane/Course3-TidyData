@@ -23,6 +23,10 @@ Set-Up Steps:
 
 <b>Note that this R script was created on a Windows Operating System using R version 3.0.3 (2014-03-06). If using a Mac to run the script, file listing format may need to be adjusted accordingly.</b>
 
+Tidy Data Organized by R Script as follows:
+---------------------
+1. 
+
 ### Additional Information
 A full description is available at the site where the data was obtained:
 
