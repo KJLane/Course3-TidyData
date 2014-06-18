@@ -15,7 +15,7 @@ The Human Activity Recognition database is built from the recordings of 30 subje
   5. STANDING
   6. LAYING
 * Total of 180 rows (one per participant per activity)
-* Provides the average of 79 different variables used from the original experiment
+* Provides the average of 79 different variables used from the original experiment (see below details about feature selections for description and units)
 * Data Set Characteristics: Multivariate, Time-Series
 
 
@@ -37,6 +37,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+Time Signals (Mean and Standard Deviation):
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -47,6 +48,8 @@ These signals were used to estimate variables of the feature vector for each pat
 * tBodyAccJerkMag
 * tBodyGyroMag
 * tBodyGyroJerkMag
+
+Fast Fourier Transform Signals (Mean and Standard Deviation):
 * fBodyAcc-XYZ
 * fBodyAccJerk-XYZ
 * fBodyGyro-XYZ
@@ -55,9 +58,7 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
-  * mean(): Mean value
-  * std(): Standard deviation
+<b>The FINAL set of variables is the average (mean) of each of the signals.</b>
 
 
 ## For more information:
