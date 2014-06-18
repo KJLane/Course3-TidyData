@@ -37,7 +37,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-<b>The FINAL set of variables is the average (mean) of each of the signals.</b>
+<b>The FINAL set of variables is the average (mean) of each of the signals per participant per activity.</b>
 
 Time Signals: A Mean and Standard Deviation (Std) measurment for each axial: X, Y, and Z...
 * tBodyAcc-XYZ
