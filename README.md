@@ -26,6 +26,7 @@ Set-Up Steps:
 Tidy Data Organized by R Script 'run_analysis.R' as follows:
 ---------------------
 Based on combining the data of two groups of subjects ("Test" and "Train"). Must first combine the data (Subject ID, Activity Label, Measurements) for each group, then combine the two groups and finally produce a single data frame with all subjects, activities and desired measurements in an organized manner. 
+
 1. Reads the experiments measurement labels into a data frame with columns "Measurement.ID" and "Description" (total of 561 observations)
 2. Reads the text files of all Subjects, Labels and Measurements for the "Test" group (each file contains 2947 observations)
 3. Combines the "Test" group files into one data frame with the "Description" labeling each variable column accordingly
