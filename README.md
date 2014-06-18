@@ -20,7 +20,8 @@ Set-Up Steps:
 5. In the R console, open the run_analysis.R script of Course3AssignFunction(). 
    * The script will create a TidyData.txt file containing the average measurements of select sensor data. Note that this will be a tab-delimited file
    * Read the CodeBook.md for additional information about the new tidy data and description of the variables.
- 
+
+<b>Note that this R script was created on a Windows Operating System using R version 3.0.3 (2014-03-06). If using a Mac to run the script, file listing format may need to be adjusted accordingly.</b>
 
 ### Additional Information
 A full description is available at the site where the data was obtained:
