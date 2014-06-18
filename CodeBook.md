@@ -37,7 +37,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-Time Signals (Mean and Standard Deviation):
+<b>The FINAL set of variables is the average (mean) of each of the signals.</b>
+
+Time Signals (Mean and Standard Deviation measurments for each axial: X, Y, and Z):
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -49,7 +51,7 @@ Time Signals (Mean and Standard Deviation):
 * tBodyGyroMag
 * tBodyGyroJerkMag
 
-Fast Fourier Transform Signals (Mean and Standard Deviation):
+Fast Fourier Transform Signals (Mean and Standard Deviation measurments for each axial: X, Y, and Z):
 * fBodyAcc-XYZ
 * fBodyAccJerk-XYZ
 * fBodyGyro-XYZ
@@ -58,7 +60,6 @@ Fast Fourier Transform Signals (Mean and Standard Deviation):
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-<b>The FINAL set of variables is the average (mean) of each of the signals.</b>
 
 
 ## For more information:
