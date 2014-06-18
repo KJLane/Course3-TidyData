@@ -41,7 +41,7 @@ Based on combining the data of two groups of subjects ("Test" and "Train"). Must
 12. Cleans up data labels by removing unnecessary symbols, uniform capitalization and style.
 13. Condenses (melts) table to primary identifiers (SubjectID, ActivityID, ActivityDescription) to create a very tall, skinny table (813621 obs. of 5 variables)
 14. Creates a tidy data frame giving the average (mean) of each of the variables to return a table with 180 observations (each of the 6 activities for each of the 30 subjects) with 81 variables.
-15. Writes the new tidy data frame into a tab-delimited file called TidyDtat.txt
+15. Writes the new tidy data frame into a tab-delimited file called TidyData.txt
 
 
 ### Additional Information
